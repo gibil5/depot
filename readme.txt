@@ -1,0 +1,7 @@
+Read Me - Depot
+--------------
+
+
+
+
+bin/rails generate scaffold Product title:string description:text image_url:string price:decimal

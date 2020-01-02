@@ -1,0 +1,70 @@
+#
+# 	Rutter - Depot
+#
+#	Created: 1 Jan 2020
+#
+# 	Generate an app. Following the instructions of the book:
+# 	Agile Web Development with Rails 6
+# 	Sam Ruby, David Bryan Copeland,  Dave Thomas
+#
+
+
+
+# Rails - Generating the scaffold
+
+bin/rails generate scaffold Product title:string description:text image_url:string price:decimal 
+
+
+
+Git
+----
+
+git config --global --add user.name "Sam Ruby"
+
+git config --global --add user.email rubys@intertwingly.net
+
+git config --global --list
+
+.gitignore
+
+
+
+
+Rails Commands - Database
+--------------------------
+bin/rails dbconsole
+	To have access to the DB
+
+bin/rails db:rollback
+
+bin/rails db:migrate
+
+
+
+
+HTTP - Requests
+----------------
+- Get
+- Delete
+- Post
+
+
+
+
+Some Rails Tricks
+-------------------
+- Rails new
+	Creates a git repo
+
+
+- Seeds - this code uses %{...}. This is an alternative syntax for double- quoted string literals
+
+- Application.html
+	
+	<main class='<%= controller.controller_name %>'>
+
+	<tr class="<%= cycle('list_line_odd', 'list_line_even') %>">
+
+	<p><%= truncate(strip_tags(product.description), length: 80) %></p>				
+
+	<%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>

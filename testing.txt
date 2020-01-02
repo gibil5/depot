@@ -1,0 +1,26 @@
+Testing
+--------
+
+
+Model and Controller
+----------------------
+
+- Model and Controller Tests generated automatically with the Scaffolding. 
+
+
+
+
+
+View 
+------
+
+- View Tests reside in test/controllers/ or are part of controller tests. 
+  The assert_select method allows you to query HTML elements of the response by using a simple yet powerful syntax. 
+
+
+- Testing the response to your request by asserting the presence of KEY html elements 
+  and their CONTENT is a common way to test the views of your application. 
+
+
+- Your View testing should be done with ACTUAL data. 
+  Not only Seeds !
