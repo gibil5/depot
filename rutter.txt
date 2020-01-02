@@ -15,6 +15,13 @@
 bin/rails generate scaffold Product title:string description:text image_url:string price:decimal 
 
 
+bin/rails generate controller Ghost 
+
+
+
+
+
+
 
 Git
 ----
@@ -23,9 +30,20 @@ git config --global --add user.name "Sam Ruby"
 
 git config --global --add user.email rubys@intertwingly.net
 
+
 git config --global --list
 
 .gitignore
+
+
+git add .
+git commit -m "Depot Scaffold"
+
+
+# Get Back to a previous point
+git checkout .
+
+
 
 
 
@@ -51,6 +69,24 @@ HTTP - Requests
 
 
 
+#	Testing
+#############
+
+Fixtures
+----------
+- A fixture is an environment in which you can run a test. 
+  It is a specification of the initial contents of a model (or models) under test.
+
+- Association-based stories are key to remembering large worlds of fixtures with ease.
+
+As in your
+config/database.yml, you must use spaces, not tabs
+
+
+
+
+
+
 Some Rails Tricks
 -------------------
 - Rails new
@@ -68,3 +104,15 @@ Some Rails Tricks
 	<p><%= truncate(strip_tags(product.description), length: 80) %></p>				
 
 	<%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } %>
+
+
+
+- Validation - Models
+
+	The ideal place to put the validation. 
+
+	The validates method is the standard place to put the validation. 
+
+	Use Regular Expressions. 
+
+

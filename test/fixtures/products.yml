@@ -1,12 +1,21 @@
+# 
+#   Model Fixture 
+#   J. Revilla
+#   Created:    2 Jan 2020
+#   Last:       2 Jan 2020
+#
+
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
+
+one:                # this name is not important
   title: MyString
   description: MyText
   image_url: MyString
   price: 9.99
 
-two:
+
+two:               # this name is not important
   title: MyString
   description: MyText
   image_url: MyString
