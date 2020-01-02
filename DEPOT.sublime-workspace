@@ -523,7 +523,7 @@
 			"file": "rutter.txt",
 			"settings":
 			{
-				"buffer_size": 1818,
+				"buffer_size": 1892,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -807,15 +807,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1818,
+						"buffer_size": 1892,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								578,
-								578
+								536,
+								536
 							]
 						],
 						"settings":
@@ -824,7 +824,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 276.0,
+						"translation.y": 369.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1174,7 +1174,7 @@
 		[
 			[
 				"",
-				"~/rails/gob.pe/libroderec/issue_35/libro_de_reclamaciones/Libro_issue_35.sublime-project"
+				"~/cellar/github/openhealth/OpenHealth-MIN.sublime-project"
 			],
 			[
 				"\t",
