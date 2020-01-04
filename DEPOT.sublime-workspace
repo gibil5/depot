@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"data",
+				"data_second"
+			],
+			[
 				"ac",
 				"action2"
 			],
@@ -510,10 +514,6 @@
 			[
 				"com",
 				"company_ruc"
-			],
-			[
-				"fie",
-				"file_name"
 			]
 		]
 	},
@@ -529,10 +529,46 @@
 			}
 		},
 		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 208,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/ghosts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 645,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/services/reniec_creator.rb",
+			"settings":
+			{
+				"buffer_size": 2328,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/ghosts/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 304,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/views/ghosts/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 8,
+				"buffer_size": 71,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -542,15 +578,6 @@
 			"settings":
 			{
 				"buffer_size": 1015,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 185,
-				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -636,6 +663,7 @@
 	},
 	"file_history":
 	[
+		"/Users/gibil/rails/gob.pe/book/depot/app/controllers/application_controller.rb_DEP",
 		"/Users/gibil/rails/gob.pe/book/depot/app/controllers/ghost_controller.rb",
 		"/Users/gibil/rails/gob.pe/book/depot/rutter.txt",
 		"/Users/gibil/rails/gob.pe/book/depot/Gemfile",
@@ -762,12 +790,11 @@
 		"/Users/gibil/cellar/github/price_list/models/marketing/stax.DEP.py",
 		"/Users/gibil/cellar/github/price_list/models/management/lib/mgt_funcs.DEP.py",
 		"/Users/gibil/cellar/github/price_list/models/marketing/lib_marketing.DEP.py",
-		"/Users/gibil/cellar/github/price_list/views/marketing/marketing_origin.xml",
-		"/Users/gibil/cellar/github/price_list/models/marketing/pat_vars.py"
+		"/Users/gibil/cellar/github/price_list/views/marketing/marketing_origin.xml"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -778,16 +805,20 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"tweet",
+			"Tweet"
 		],
 		"highlight": false,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"reniec",
+			"Reniec"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -798,7 +829,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -814,8 +845,8 @@
 						"selection":
 						[
 							[
-								536,
-								536
+								495,
+								495
 							]
 						],
 						"settings":
@@ -824,84 +855,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 369.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/ghosts/index.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8,
-								8
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/products/index.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1015,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "config/routes.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 185,
+						"buffer_size": 208,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								185,
-								185
+								208,
+								208
 							]
 						],
 						"settings":
@@ -916,7 +890,151 @@
 					"type": "text"
 				},
 				{
+					"buffer": 2,
+					"file": "app/controllers/ghosts_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								602
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/services/reniec_creator.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2328,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
 					"buffer": 4,
+					"file": "app/views/ghosts/show.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 12.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/ghosts/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 71,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/products/index.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1015,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "app/controllers/products_controller.rb",
 					"semi_transient": false,
 					"settings":
@@ -941,7 +1059,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -949,7 +1067,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -998,7 +1116,7 @@
 	"project": "DEPOT.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1174,7 +1292,7 @@
 		[
 			[
 				"",
-				"~/cellar/github/openhealth/OpenHealth-MIN.sublime-project"
+				"~/rails/gob.pe/libroderec/issue_35/libro_de_reclamaciones/Libro_issue_35.sublime-project"
 			],
 			[
 				"\t",

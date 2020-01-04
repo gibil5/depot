@@ -1,7 +1,8 @@
 #
 # 	Rutter - Depot
 #
-#	Created: 1 Jan 2020
+#	Created: 	1 Jan 2020
+#	Last:		4 Jan 2010
 #
 # 	Generate an app. Following the instructions of the book:
 # 	Agile Web Development with Rails 6

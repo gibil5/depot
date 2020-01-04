@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   resources :ghosts
 
+  get 'ghosts/reniec'
+
 end
